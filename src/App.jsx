@@ -73,9 +73,6 @@ export default function App() {
       {/* Logo */}
       <div className="px-5 py-5 flex items-center justify-between border-b border-slate-800">
         <div className="flex items-center gap-2.5">
-          {/* <div className="h-8 w-8 bg-indigo-600 rounded-lg flex items-center justify-center shrink-0">
-            <Shield size={16} className="text-white" />
-          </div> */}
           <div>
             {/* <span className="font-semibold text-white text-sm">FlowSentinel</span> */}
             <img src="/logo-dark.svg" alt="FlowSentinel" className="h-10" />
@@ -149,7 +146,6 @@ export default function App() {
           <button onClick={() => setSidebarOpen(true)} className="text-slate-400 hover:text-white">
             <Menu size={20} />
           </button>
-          {/* <span className="text-sm font-semibold text-white">FlowSentinel Admin</span> */}
           <img src="/logo-dark.svg" alt="FlowSentinel" className="h-10" />
         </header>
 

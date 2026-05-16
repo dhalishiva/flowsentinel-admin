@@ -23,10 +23,6 @@ export default function LoginPage({ onLogin }) {
       <div className="w-full max-w-sm">
         {/* Logo */}
         <div className="flex flex-col items-center mb-8">
-          {/* <div className="h-14 w-14 bg-indigo-600 rounded-2xl flex items-center justify-center mb-4 shadow-lg shadow-indigo-500/20">
-            <Shield size={28} className="text-white" />
-          </div> */}
-          
           <img src="/logo-dark.svg" alt="FlowSentinel" className="h-14" />
           {/* <h1 className="text-2xl font-bold text-white">FlowSentinel</h1> */}
           <p className="text-slate-400 text-sm mt-1">Admin Portal</p>
