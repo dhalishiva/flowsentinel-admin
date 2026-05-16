@@ -27,7 +27,7 @@ export default function LoginPage({ onLogin }) {
             <Shield size={28} className="text-white" />
           </div> */}
           
-          <img src="/logo-dark-login.svg" alt="FlowSentinel" className="h-14" />
+          <img src="/logo-dark.svg" alt="FlowSentinel" className="h-14" />
           {/* <h1 className="text-2xl font-bold text-white">FlowSentinel</h1> */}
           <p className="text-slate-400 text-sm mt-1">Admin Portal</p>
         </div>
